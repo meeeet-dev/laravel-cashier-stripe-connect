@@ -6,6 +6,12 @@
 
 This package is designed to seamlessly connect all of your eloquent models, mapping them to the relevant stripe entities in order to make a marketplace or payments platform.
 
+## Installation
+
+``composer require meeeet-dev/laravel-cashier-stripe-connect``
+
+**Note:** the package will not work as intended if you do not install [Laravel's official Cashier package](https://laravel.com/docs/10.x/billing) first.
+
 ## Documentation
 
 We now have a dedicated docs page for this plugin. You can view it [here](https://updev-1.gitbook.io/cashier-for-connect/).
