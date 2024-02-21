@@ -8,7 +8,9 @@ This package is designed to seamlessly connect all of your eloquent models, mapp
 
 ## Installation
 
-``composer require meeeet-dev/laravel-cashier-stripe-connect``
+ ``composer require meeeet-dev/laravel-cashier-stripe-connect``
+
+ ``php artisan vendor:publish --tag=cashier-connect-migrations``
 
 **Note:** the package will not work as intended if you do not install [Laravel's official Cashier package](https://laravel.com/docs/10.x/billing) first.
 
